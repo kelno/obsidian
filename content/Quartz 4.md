@@ -2,6 +2,7 @@ Getting started: https://quartz.jzhao.xyz/
 
 Test publish:  `npx quartz build --serve` 
 
+Sync to publish to GitHub pages: `npx quartz sync`
 
 # Plugins
 
