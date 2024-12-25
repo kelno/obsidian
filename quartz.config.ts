@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-GB",
     baseUrl: "kelno.github.io/obsidian",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "attachments/!(public-|Public-)*.*",],
     defaultDateType: "created",
     generateSocialImages: false,
     theme: {
