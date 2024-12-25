@@ -8,6 +8,8 @@ Test publish:  `npx quartz build --serve`
 
 Sync to publish to GitHub pages: `npx quartz sync`
 
+Changing the root of the publish folder is just pointing the symlink called "content" to something else (`D:\work\quartz\content` -> ?)
+
 # Plugins
 
 #### HardLineBreaks
