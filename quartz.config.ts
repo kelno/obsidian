@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-GB",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "kelno.github.io/obsidian",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
