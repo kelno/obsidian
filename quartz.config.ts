@@ -17,7 +17,13 @@ const config: QuartzConfig = {
     },
     locale: "en-GB",
     baseUrl: "kelno.github.io/obsidian",
-    ignorePatterns: ["private", "templates", ".obsidian", "attachments/!(public-|Public-)*.*",],
+    ignorePatterns: [
+        "private", 
+        "templates", 
+        ".obsidian", 
+        "attachments/!(public-|Public-)*.*",
+        "*.epub",
+    ],
     defaultDateType: "created",
     generateSocialImages: false,
     theme: {
@@ -88,7 +94,7 @@ const config: QuartzConfig = {
         enableSiteMap: true,
         enableRSS: true,
       }),
-      Plugin.Assets(),
+      
       Plugin.Static(),
       Plugin.NotFoundPage(),
     ],
