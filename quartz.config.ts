@@ -82,7 +82,7 @@ const config: QuartzConfig = {
       Plugin.HardLineBreaks(),
     ],
     filters: [
-        Plugin.ExplicitPublish()
+        Plugin.RemoveDrafts()
     ],
     emitters: [
       Plugin.AliasRedirects(),
