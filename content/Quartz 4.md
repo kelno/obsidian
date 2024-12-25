@@ -1,3 +1,7 @@
+---
+publish: "true"
+---
+
 Getting started: https://quartz.jzhao.xyz/
 
 Test publish:  `npx quartz build --serve` 
