@@ -1,3 +1,3 @@
 #!/bin/sh
 
-npx quartz sync --directory=../sync
+npx quartz sync
